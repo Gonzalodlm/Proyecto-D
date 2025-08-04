@@ -52,7 +52,13 @@ El scraper usa Selenium con Chrome. ChromeDriver se instala automáticamente.
 
 ## 📊 Uso
 
-### Ejecutar la aplicación principal:
+### 🌐 Interfaz Web (Recomendado):
+```bash
+streamlit run app.py
+```
+Abre tu navegador en `http://localhost:8501`
+
+### 💻 Aplicación CLI:
 ```bash
 python main.py
 ```
